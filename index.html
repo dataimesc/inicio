@@ -7,65 +7,88 @@
 </head>
 
 <body>
-<div class="logo">
-	<img src="logo-original-imesc.png" width=40% alt="logo" onclick="location.href='https://dataimesc.imesc.ma.gov.br/';">
-</div>
-<h1 class="titulo">APLICAÇÕES DESENVOLVIDAS PARA A DEP - IMESC</h1>
-<div class="row">
-	<div class="column">
-		<div class="calculadora">
-			<button onclick="redirectTo('https://dataimesc.github.io/calculadora/')">Calculadora de Inflação</button>
-		</div>
-		<div class="conversor_moedas">
-			<button onclick="redirectTo('https://dataimesc.github.io/conversor_de_moedas/')">Conversor de Moedas</button>
-		</div>
-		<div class="gerador_graficos">
-			<button onclick="redirectTo('https://dataimesc.github.io/gerador-de-graficos/')">Gerador de Gráficos</button>
-		</div>
-		<div class="indicadores_bacen">
-		<button onclick="redirectTo('https://dataimesc.github.io/bacenInterestRate-main/')">Indicadores Econômicos - BACEN</button>
-		</div>
-	</div>
-	<div class="column">
-		<div class="atualiza_ibge">
-			<button onclick="">Atualiza IBGE</button>
-		</div>
-		<div class="gerador_relatorios">
-			<button onclick="">Gerador de Relatórios</button>
-		</div>
-		<div class="regioes_planejamento">
-			<button onclick="">Regiões de Planejamento</button>
-		</div>
-		<div class="indicadores_ativos">
-			<button onclick="">Indicadores ativos no DATAIMESC</button>
-		</div>
+	<div class="logo">
+		<a href='https://dataimesc.imesc.ma.gov.br/'><img src="logo-original-imesc.png" width=75% alt="logo"></a>
 	</div>
 
-</div>
+	
+	<div class="container">
+		<h1 class="titulo">APLICAÇÕES DESENVOLVIDAS PARA A DEP - IMESC</h1>
+		<div style="text-align: center;">
+			<div class="column">
+				<h2>----- Plataformas -----</h2>
+				<div class="calculadora">
+					<a href="https://dataimesc.github.io/calculadora/"><button>Calculadora de Inflação</button></a>
+				</div>
+				<div class="conversor_moedas">
+					<a href="https://dataimesc.github.io/conversor_de_moedas/"><button>Conversor de Moedas</button></a>
+				</div>
+				<div class="gerador_graficos">
+					<a href="https://dataimesc.github.io/gerador-de-graficos/"><button>Gerador de Gráficos</button></a>
+				</div>
+				<div class="indicadores_bacen">
+					<a href="https://dataimesc.github.io/bacenInterestRate-main/"><button>Indicadores Econômicos - BACEN</button></a>
+				</div>
+			</div>
+			<div class="column">
+				<h2>------ Scripts ------</h2>
+				<div class="atualiza_ibge">
+					<a href=""><button>Atualiza IBGE</button></a>
+				</div>
+				<div class="gerador_relatorios">
+					<a href=""><button>Gerador de Relatórios</button></a>
+				</div>
+				<div class="regioes_planejamento">
+					<a href=""><button>Regiões de Planejamento</button></a>
+				</div>
+				<div class="indicadores_ativos">
+					<a href=""><button>Indicadores ativos no DATAIMESC</button></a>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
 
 
 <style type="text/css">
+	body {
+			background-image: url('background-page.jpg');
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+	}
 	.logo {
-			margin-left: auto;
-			margin-right: auto;
 			position:center;
-			top:-20px;
-			left:-30px;
-			text-align: center
+			text-align: center;
+			background-color: white;
+			border-radius: 4px;
+			margin: 10px auto;
+			max-width: 45%;
 	}
 	.titulo {
 			font-family: 'Raleway', sans-serif;
 			text-align: center;
 			font-weight: 600;
-			font-size: 30px;
+			font-size: 25px;
 			color: white;
 			background-color: #14367B;
-			padding: 10px 10px
+			padding: 10px 10px;
+			border-radius: 4px;
+	}
+	.container {
+			margin: 10px auto;
+			max-width: 40%;
+			background-color: #fff;
+			padding: 10px 60px 25px 60px;
+			box-shadow: 0px 2px 5px rgba(107, 103, 103, 0.3);
+			border-radius: 4px;
 	}
     button {
-            padding: 10px 20px;
+            width: 100%;
+			padding: 10px 20px;
             margin: 5px;
             font-size: 16px;
             cursor: pointer;
@@ -77,14 +100,12 @@
     }
 
 	.column {
-			float: left;
 			width: 50%;
+			text-align: center;
+			display: inline-block;
+	}
+	.column h2 {
+			font-family: 'Raleway',sans-serif;text-align: center;color: #14367B;
 	}
 
 </style>
-
-<script>
-	function redirectTo(url) {
-    window.location.href = url;
-    }
-</script>
