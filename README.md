@@ -3,6 +3,8 @@
 # Sobre 
 Este site é a página inicial das aplicações desenvolvidas para a Diretoria de Estudos e Pesquisas (DEP) do IMESC.
 
+Para acessar: https://dataimesc.github.io/inicio/ 
+
 ## Plataformas
 Essa seção concentra as 4 principais aplicações de forma interativa e visual
 
