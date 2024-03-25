@@ -16,7 +16,7 @@ Essa seção reúne os códigos construídos para resolver demandas específicas
 ## Tecnologias utilizadas
 <p display="inline-block">
   <img width="48" src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png"/>
-  <img width="56" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_square.png"/>
+  <img width="62" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_square.png"/>
 </p>
 
 ## Autores do projeto
