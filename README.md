@@ -17,7 +17,7 @@ Essa seção reúne os códigos construídos para resolver demandas específicas
 <p display="inline-block">
   <img width="48" src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png"/>
   <img width="62" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_square.png"/>
-  <img width="48" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Google_Colaboratory_SVG_Logo.svg/800px-Google_Colaboratory_SVG_Logo.svg.png"/>
+  <img width="90" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Google_Colaboratory_SVG_Logo.svg/800px-Google_Colaboratory_SVG_Logo.svg.png"/>
 </p>
 
 ## Autores do projeto
